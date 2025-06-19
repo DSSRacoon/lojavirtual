@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #282626;
+}
+.screen{
+    display: flex;
+    height: 100vh;
+}
+.left-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side img{
+    max-width: 500px;
+    height: auto;
+}
+.right-side{
+    width: 400px;
+    background-color: #DDD;
+    padding: 50px;
+}
+.right-side label{
+    display: block;
+    margin-bottom: 20px;
+}
+.right-side input{
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    /*Pra tirar a linha destacada sobre o item que o navegador coloca*/
+    outline: 0;
+}
+.error{
+    color: #FFF;
+    background-color: red;
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 5px;
+}
